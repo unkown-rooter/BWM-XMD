@@ -34,7 +34,7 @@ module.exports = { session: process.env.SESSION_ID || '',
                   AUTO_SAVE_CONTACTS : process.env.AUTO_SAVE_CONTACTS || 'yes',
                   AUTO_REJECT_CALL : process.env.AUTO_REJECT_CALL || 'yes',
                   AUTO_BIO : process.env.AUTO_BIO || 'yes',
-                  AUDIO_REPLY : process.env.AUDIO_REPLY || 'yes',
+                  AUDIO_REPLY : process.env.THANK YOU FOR CONTACTING JAPANESEMONK, JAPANESEMONK IS BUSY NOW LET ME KNOW HOW MAY I ASSIST YOU|| 'yes',
     DATABASE_URL,
     DATABASE: DATABASE_URL === databasePath
         ? "postgresql://postgres:bKlIqoOUWFIHOAhKxRWQtGfKfhGKgmRX@viaduct.proxy.rlwy.net:47738/railway" : "postgresql://postgres:bKlIqoOUWFIHOAhKxRWQtGfKfhGKgmRX@viaduct.proxy.rlwy.net:47738/railway",
